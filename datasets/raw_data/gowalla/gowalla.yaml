@@ -1,0 +1,16 @@
+data_dir: datasets/raw_data/gowalla
+user_id_field: &u user_id:token
+item_id_field: &i item_id:token
+time_field: &t timestamp:float
+rating_field: &r num_repeat:float
+inter_feat_name: gowalla.inter
+inter_feat_field: [*u, *i, *r, *t]
+user_feat_field: [[*u]]
+item_feat_field: [[*i]]
+field_separator: "\t"
+seq_separator: " " 
+min_user_inter: 10
+min_item_inter: 10
+field_max_len: ~
+rating_threshold: ~
+drop_low_rating: ~
