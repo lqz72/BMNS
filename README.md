@@ -1,5 +1,5 @@
-# Implementation for BMNS
-Batch-Mix Negative Sampling for Learning Recommendation Retrievers, CIKM2023
+# Batch-Mix Negative Sampling for Learning Recommendation Retrievers
+The implementation of BMNS, CIKM2023
 
 
 
